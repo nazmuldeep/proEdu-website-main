@@ -395,7 +395,7 @@
 
 
             <!-- text align center start -->
-            <section class="container">
+            <section class="container w-50 ">
                 <h1 class="text-center mt-5 ">Frequently Asked Questions</h1>
                 <p class="text-center mt-3 mb-5 text-p">There are various kinds of courses available: <br> from online
                     courses to
@@ -406,10 +406,10 @@
 
 
                 <!-- Accordion start  -->
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <div class="row">
                         <!-- change the class to row in this div -->
-                        <div class="col-md-8 col-md-offset-3">
+                        <div class="col-md-12 ">
                             <div class="accordion accordion-flush " id="accordionFlushExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="flush-headingOne">
@@ -421,7 +421,8 @@
                                     </h2>
                                     <div id="flush-collapseOne" class="accordion-collapse collapse"
                                         aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">The basic difference between CSS Grid Layout and CSS
+                                        <div class="text-p accordion-body">The basic difference between CSS Grid Layout
+                                            and CSS
                                             Flexbox Layout is that flexbox was designed for layout in one dimension -
                                             either a row or a column. Grid was designed for two-dimensional layout -
                                             rows, and columns at the same time</div>
@@ -439,7 +440,8 @@
                                     </h2>
                                     <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                         aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Tailwind offers predesigned widgets to build a site
+                                        <div class="text-p accordion-body">Tailwind offers predesigned widgets to build
+                                            a site
                                             from scratch with fast UI development. Bootstrap comes with a set of
                                             pre-styled responsive, mobile-first components that possess a definite UI
                                             kit.Tailwind CSS uses a set of utility classes to create a neat UI with more
@@ -459,7 +461,8 @@
                                     </h2>
                                     <div id="flush-collapseThree" class="accordion-collapse collapse"
                                         aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">The HTML semantics refers to the tags that provide
+                                        <div class=" text-p accordion-body">The HTML semantics refers to the tags that
+                                            provide
                                             meaning to an HTML page rather than just presentation. It makes HTML more
                                             comprehensible by better defining the different sections and layout of web
                                             pages.</div>
@@ -475,7 +478,8 @@
                                     </h2>
                                     <div id="flush-collapseFour" class="accordion-collapse collapse"
                                         aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">The CSS box model is essentially a box that wraps
+                                        <div class="text-p accordion-body">The CSS box model is essentially a box that
+                                            wraps
                                             around every HTML element. It consists of: margins, borders, padding, and
                                             the actual content. </div>
                                     </div>
@@ -504,17 +508,29 @@
             <p class="text-light text-center mb-0">Dhaka, Bangladesh </p>
             <p class="text-light text-center mb-3"><a class="text-decoration-none text-light" href="#">Privacy
                     Policy</a> | <a class="text-decoration-none text-light" href="#">Terms of us</a></p>
-            <div class="d-flex justify-content-center">
-                <div class="mx-2 "><a class="text-light fs-3 d-block" href="https://www.facebook.com/nazmul.dip.37/"><i
-                            class="p-2 p-lg-3 bg-secondary rounded-circle fa-brands fa-facebook"></i></a></div>
-                <div class="mx-2"><a class="text-light fs-3 d-block"
-                        href="https://www.instagram.com/nazmul_ahamed_dip/"><i
-                            class=" p-2 p-lg-3 bg-secondary rounded-circle fa-brands fa-instagram"></i></a></div>
-                <div class="mx-2"><a class="text-light fs-3 d-block"
-                        href="https://www.linkedin.com/in/nazmul-dip-73b8751bb/"><i
-                            class=" p-2 p-lg-3 bg-secondary rounded-circle fa-brands fa-linkedin-in"></i></a></div>
-                <div class="mx-2"><a class="text-light fs-3 d-block" href="https://www.youtube.com/c/ProgrammingHero"><i
-                            class=" p-2 p-lg-3 bg-secondary rounded-circle fa-brands fa-youtube"></i></a></div>
+            <div class="container d-flex justify-content-center py-5">
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+                    style="background-color: #54456b;">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+                    style="background-color: #54456b;">
+                    <i class="fa-brands fa-youtube"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+                    style="background-color: #54456b;">
+                    <i class="fab fa-instagram"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+                    style="background-color: #54456b;">
+                    <i class="fab fa-twitter"></i>
+                </button>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2020 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
             </div>
         </div>
     </footer>
